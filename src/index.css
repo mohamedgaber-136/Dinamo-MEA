@@ -1,0 +1,21 @@
+.ModalBtn{
+  position: fixed;
+  top: 20px;
+  right: 50px;
+  z-index: 999;
+  box-shadow: none;
+}
+.LoaderData{
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  right:0;
+  bottom: 0;
+  z-index: 999999999999999;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
